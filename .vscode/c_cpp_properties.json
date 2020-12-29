@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "E:\\gcc-arm-none-eabi-9-2020-q2-update-win32\\lib\\gcc\\arm-none-eabi\\9.3.1\\include",
+                "${workspaceFolder}/stmfor32/Core/Inc",
+                "${workspaceFolder}/stmfor32/Drivers/STM32F1xx_HAL_Driver/Inc",
+                "${workspaceFolder}/stmfor32/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/stmfor32/Drivers/CMSIS/Include",
+                "${workspaceFolder}/stmfor32/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F103xE"
+            ],
+            "compilerPath": "E:\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-gcc.exe",
+            "intelliSenseMode": "gcc-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "${workspaceFolder}"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
